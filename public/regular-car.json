@@ -1,0 +1,27 @@
+[
+    {
+      "picture": "https://img.freepik.com/free-photo/vintage-miniature-car-fake-landscape_155003-1097.jpg?w=740&t=st=1684437236~exp=1684437836~hmac=c50d3d4ffc69fbad8ff2bfee4b8e26c01c4846f199226774eef1f78bfefa7ecc",
+      "name": "City Cruiser",
+      "price": 14.99,
+      "rating": 4.0,
+      "id":"r1",
+      "details": "The City Cruiser toy car is perfect for everyday play. It's designed to resemble a real-life city car and provides hours of imaginative fun for kids."
+    },
+    {
+      "picture": "https://img.freepik.com/free-photo/toy-red-car-with-pinecone-top_1252-14.jpg?w=996&t=st=1684437272~exp=1684437872~hmac=a357693fee64ae3f4824c537eb269d6711d8050204b97d7c598ac47a0683c952",
+      "name": "Family Sedan",
+      "price": 16.99,
+      "rating": 4.3,
+      "id":"r2",
+      "details": "The Family Sedan toy car is great for pretend family adventures. It features a spacious interior and realistic design, making it a favorite among young car enthusiasts."
+    },
+    {
+      "picture": "https://img.freepik.com/premium-photo/self-driving-tour-concept-car-model-destination_1205-2699.jpg",
+      "name": "Off-Road Explorer",
+      "price": 19.99,
+      "rating": 4.6,
+      "id":"r3",
+      "details": "The Off-Road Explorer toy car is built to conquer any terrain. With its rugged design and durable construction, it's the perfect choice for outdoor play and exploration."
+    }
+  ]
+  

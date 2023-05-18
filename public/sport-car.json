@@ -1,0 +1,26 @@
+[
+    {
+      "picture": "https://img.freepik.com/free-photo/small-red-car-toy-kid-child-playing-with-it_114579-7239.jpg?w=996&t=st=1684436946~exp=1684437546~hmac=15a4411a00e566a8af68b4f3ca89478716703ce1f133935db7b6d01f7e9708d1",
+      "name": "Super Racer",
+      "price": 19.99,
+      "rating": 4.5,
+      "id":"s1",
+      "details": "The Super Racer toy car is built for speed and excitement. With its sleek design and high-performance features, it's sure to provide hours of fun for any racing enthusiast."
+    },
+    {
+      "picture": "https://img.freepik.com/free-vector/yellow-sports-car_1308-96215.jpg?w=1380&t=st=1684436998~exp=1684437598~hmac=2c949b8904de9ee8aa89d1a4ec6da952fb81f111e816999f7abd92a53001249e",
+      "name": "Turbo Boost",
+      "price": 24.99,
+      "rating": 4.2,
+      "id":"s2",
+      "details": "The Turbo Boost toy car is all about power and acceleration. It comes with a turbocharged engine and advanced aerodynamics to give you the ultimate racing experience."
+    },
+    {
+      "picture": "https://img.freepik.com/free-vector/cartoon-bumper-car-white-background_1308-107878.jpg?w=996&t=st=1684437040~exp=1684437640~hmac=2eca7e4e8a8e602acbd1f828330300906f6f985ad30a92cda3b047afe5f4b657",
+      "name": "Nitro Speedster",
+      "price": 29.99,
+      "rating": 4.7,
+      "id":"s3",
+      "details": "The Nitro Speedster toy car is designed for adrenaline junkies. It features a nitro-fueled engine that delivers lightning-fast speeds and jaw-dropping performance on the racetrack."
+    }
+  ]

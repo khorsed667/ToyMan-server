@@ -1,0 +1,27 @@
+[
+    {
+      "picture": "https://img.freepik.com/free-photo/closeup-shot-small-toy-car-wooden-train-track_181624-32510.jpg?w=996&t=st=1684437101~exp=1684437701~hmac=c7b6c73e2721dc33e8edf5fdcd48c7d0bab822ca3e5d70232c3a8be9b591c2b4",
+      "name": "Monster Truck",
+      "price": 29.99,
+      "rating": 4.8,
+      "id":"t1",
+      "details": "The Monster Truck toy is a powerful and rugged off-road vehicle. It features oversized tires, suspension system, and a fearless design, making it perfect for performing daring stunts and conquering obstacles."
+    },
+    {
+      "picture": "https://img.freepik.com/free-photo/kindergarten-concept-with-wooden-blocks-kid-toys-wooden-grungy-background-side-view_176474-7732.jpg?w=996&t=st=1684437136~exp=1684437736~hmac=c71e2d1af5ee2c6b31bcf71f931edd06f21407d15243a7c97a20a59cd71b4198",
+      "name": "Tow Truck",
+      "price": 24.99,
+      "rating": 4.4,
+      "id":"t2",
+      "details": "The Tow Truck toy is ready to save the day! It comes with a functional tow hook and realistic details. It's ideal for imaginative play scenarios and teaching kids about vehicles and helping others."
+    },
+    {
+      "picture": "https://img.freepik.com/free-photo/still-life-colorful-gummy-bears_23-2149870780.jpg?w=996&t=st=1684437175~exp=1684437775~hmac=290477767b53a4dca28dbded095e24bbf94ebb8e0696337d17347fff9cf2197a",
+      "name": "Dump Truck",
+      "price": 19.99,
+      "rating": 4.6,
+      "id":"t3",
+      "details": "The Dump Truck toy is perfect for construction-themed play. It features a working dump bed, sturdy construction, and realistic design. Kids can load, transport, and unload materials just like a real dump truck."
+    }
+  ]
+  
