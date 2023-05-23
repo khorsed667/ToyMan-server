@@ -5,7 +5,7 @@ const port = process.env.PORT || 5000;
 const sportCar = require('./public/sport-car.json')
 const trucks = require('./public/trucks.json')
 const regularCar = require('./public/regular-car.json')
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 require('dotenv').config()
 
 
@@ -41,6 +41,15 @@ async function run() {
         res.send(result)
     })
 
+    app.get('/cars/:id', async(req, res)=>{
+        const id = req. params.id;
+        console.log(id);
+        const query = {_id: new ObjectId(id)}
+        console.log(query);
+        const selectedId = await toyCollection.findOne(query)
+        res.send(selectedId)
+    })
+
 
     app.post('/postToys', async(req, res) =>{
         const body = req.body;
@@ -48,6 +57,22 @@ async function run() {
         res.send(result)
     })
 
+
+    app.get('/myToys/:email', async(req, res) =>{
+        console.log(req.params.email);
+        const result = await toyCollection.find({sellerEmail: req.params.email}).toArray()
+        res.send(result)
+    })
+
+
+    // app.get('/myToys', async(req, res) =>{
+    //     let query = {};
+    //     if(req.query?.sellerEmail){
+    //         query = { sellerEmail : req.query.email} 
+    //     }
+    //     const result = await toyCollection.find(query).toArray();
+    //     res.send(result)
+    // } )
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
